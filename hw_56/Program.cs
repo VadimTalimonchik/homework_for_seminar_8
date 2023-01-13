@@ -9,7 +9,7 @@
 // Программа считает сумму элементов в каждой строке и выдаёт
 // номер строки с наименьшей суммой элементов: 1 строка
 
-Console.Write("Введите размер квадратного массива: ");
+Console.Write("Введите размер массива: ");
 int massVol = int.Parse(Console.ReadLine()!);
 Console.WriteLine();
 int[,] numbers = new int[massVol, massVol];
@@ -32,7 +32,7 @@ for (int i = 0; i < numbers.GetLength(0); i++)
         indexLine++;
     }
 }
-Console.WriteLine($"Строка с наименьшей суммой елементов {(indexLine)}-ая, с суммой елементов в ней: {(minsum)}.");
+Console.WriteLine($"Строка с наименьшей суммой елементов {(indexLine)}-ая и её ссумма составляет: {(minsum)}.");
 Console.WriteLine();
 
 void FillArrayRandomNumbers(int[,] array)
