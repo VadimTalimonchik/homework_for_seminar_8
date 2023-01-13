@@ -39,7 +39,7 @@ for (int i = 0; i < numbers.GetLength(0); i++)
 Console.WriteLine();
 Console.WriteLine("Массив с упорядоченными значениями:");
 PrintArray(numbers);
-Console.WriteLine();
+
 
 void FillArrayRandomNumbers(int[,] array)
 {
